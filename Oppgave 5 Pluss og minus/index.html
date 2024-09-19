@@ -3,12 +3,33 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Oppgave 1 Hurra for deg!</title>
+        <title>Oppgave 5 Pluss og minus</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     
     <body>
+        <h1>Pluss og Minus</h1>
 
-        
+        <h3>Pluss</h3>        
+        <div class="balls">
+            <input type="number" id="num1" />
+            <span>+</span>
+            <input type="number" id="num2" />
+            <button id="calculatePluss">=</button>
+            <div id="result"></div>
+        </div>
+
+        <h3>Minus</h3>
+        <div class="balls">
+            <input type="number" id="num3" />
+            <span>-</span>
+            <input type="number" id="num4" />
+            <button id="calculateMinus">=</button>
+            <div id="resultMinus"></div>
+        </div>
+
+        <button id="refresh">Refresh</button>
+
         <script src="script.js"></script>
     </body>
 </html>

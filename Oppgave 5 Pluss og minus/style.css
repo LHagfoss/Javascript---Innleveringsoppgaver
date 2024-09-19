@@ -1,0 +1,8 @@
+.balls {
+    display: flex;
+    gap: 15px;
+}
+
+#refresh {
+    margin-top: 20px;
+}
